@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+}
+
+#favcolor {
+    width: 5em;
+    height: 5em;
+    padding: 0.3em;
+    background-color: blue;
+
+}
+.menu {
+    flex: 0.5;
+}
+.canvas_container {
+    flex: 2;
+    display: flex;
+    padding-top: 20em;
+    justify-content: space-around;
+    
+    
+}
+.canvas {
+    flex: 1;
+   display: flex;
+   max-width: 40em;
+   aspect-ratio: 1 / 1;
+   flex-wrap: wrap;
+   box-shadow: 1em 1em 0em rgba(0, 0, 0, 0.3);
+}
+
+body {
+    background-color: grey;
+}
+.box {
+    background: whitesmoke;
+    font-weight: bold; 
+    height:auto;
+}
+
+.box:before {
+    content:'';
+    aspect-ratio: 1 / 1;
+
+    float:left;
+    padding-top:100%;
+}
