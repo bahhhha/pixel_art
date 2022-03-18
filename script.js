@@ -6,12 +6,12 @@ const changesize = document.getElementById("changesize");
 const size_show = document.getElementById("size_show");
 var length = changesize.value; 
 var mouseDown = 0;
+var simpleclick = 0;
+
 document.body.onmousedown = function() { 
   mouseDown = 1;
 }
-document.body.click = function() {
-    mouseDown = 1;
-}
+
 document.body.onmouseup = function() {
   mouseDown = 0;
 }
